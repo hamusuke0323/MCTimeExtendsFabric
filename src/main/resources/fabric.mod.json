@@ -9,7 +9,7 @@
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/mctimeextendsfabric",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/hamusuke0323/MCTimeExtendsFabric"
   },
   "license": "CC0-1.0",
   "environment": "*",
