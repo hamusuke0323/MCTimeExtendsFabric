@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mctimeex",
+  "version": "${version}",
+  "name": "MCTimeExtends",
+  "description": "Extends one minecraft day from 20 min to 24 hour.",
+  "authors": [
+    "hamusuke2303"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/mctimeextendsfabric",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "environment": "*",
+  "icon": "assets/mctimeex/icon.png",
+  "mixins": [
+    "mctimeex.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

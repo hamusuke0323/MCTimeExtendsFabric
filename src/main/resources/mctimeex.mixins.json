@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hamusuke.mctimeex.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "TimeCommandMixin",
+    "ServerWorldMixin",
+    "MinecraftServerMixin",
+    "DimensionTypeMixin"
+  ],
+  "client": [
+    "client.DebugHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
